@@ -10,7 +10,7 @@ export default function Greeting() {
     return (
         <div >
             <div id='greeting' style={{height:300,width:1000,display:'flex',backgroundColor:'#000000',color:'#FFFFFF',justifyContent:'center',textAlign:'center',alignContent:'center'}}>
-            <h1 id='h1'>This is a greeting</h1>
+            <h1 id='h1'>This is not a greeting</h1>
             </div>
             <button disabled={isClicked} onClick={handleClick}> chang text</button>
 
