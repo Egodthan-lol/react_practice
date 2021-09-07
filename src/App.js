@@ -1,8 +1,9 @@
-import Greeting from "./components/Greeting";
+import Calculator from "./components/Todolist.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Greeting/>
+      <Calculator/>
     </div>
   );
 }
